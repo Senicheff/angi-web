@@ -550,6 +550,12 @@ body
 
 }
 
+.am_title__right {
+
+    justify-content: start;
+    
+}
+
 .am_advant__item_title h3 {
 
     font-family: 'Caveat';
