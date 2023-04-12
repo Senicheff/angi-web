@@ -1,0 +1,348 @@
+@media screen and (max-width: 1400px)
+{
+
+}
+
+@media screen and (max-width: 1300px)
+{
+
+    .am_services_items {
+
+        margin-top: 100px;
+
+    }
+
+    .am_services_item img {
+
+        max-width: 80%;
+
+    }
+
+    .am_services__list_img img {
+
+        max-width: 60%;
+
+    }
+
+    .am_services__list_title h3 {
+
+        font-size: 14px;
+        padding: 10px 35px;
+
+    }
+
+    .am_services__list_text ul li {
+
+        font-size: 14.5px;
+
+    }
+  
+@media screen and (max-width: 1200px)
+{
+
+    .am_works__title span {
+
+        font-size: 25px;
+
+    }
+
+    .am_works__info h1 {
+
+        font-size: 25px;
+
+    }
+
+    .am_services_item {
+
+        text-align: left;
+
+    }
+
+    /* .am_services__list_desc {
+
+        min-width: 60%
+
+    } */
+
+    /* Блок 2 - "Мои услуги" */
+
+    /* .am_services_items {
+
+        flex-direction: column;
+
+    } */
+   
+}
+@media screen and (max-width: 1100px)
+{
+   
+}
+@media screen and (max-width: 992px)
+{
+
+    .container_center {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .am_header_desc {
+
+        display: none;
+        
+    }
+
+    .am_header_mob {
+
+        display: block;
+        margin-bottom: 30px;
+
+    }
+
+    .am_logo {
+
+        margin-bottom: 30px;
+
+    }
+
+    .am_header__phone {
+
+        margin-top: 0;
+
+    }
+
+    .am_header__callback a {
+
+        width: 65px;
+        height: 40px;
+        display: flex;
+
+    }
+
+    .am_mobile_menu {
+
+        width: 65px;
+        height: 40px;
+        border-radius: 30px;
+        background: #0D98FD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .am_mobile_menu svg {
+
+        width: 18px;
+        height: 16px;
+
+    }
+
+    .am_works {
+
+        margin-top: 0;
+
+    }
+
+    .am_works__item {
+
+        width: 320px;
+
+    }
+
+    .am_works__info {
+
+        margin-bottom: 0;
+
+    }
+
+    /* Блок 2 - "Мои услуги" */
+
+    .am_services__title h2 {
+
+        font-size: 40px;
+
+    }
+
+    .am_services_items {
+
+        flex-direction: column;
+
+    }
+
+    .am_services_item:first-child {
+
+        margin-bottom: 70px;
+
+    }
+
+    .am_services_item {
+
+        text-align: center;
+
+    }
+
+    .am_services_item img {
+
+        max-width: 70%;
+
+    }
+
+   
+}
+@media screen and (max-width: 768px)
+{
+
+    .am_works__info h1 {
+
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+   
+}
+
+@media screen and (max-width: 700px)
+{
+
+    .am_services__list_item {
+
+        flex-direction: column;
+
+    }
+
+    .am_services__list_img {
+
+        margin-bottom: 30px;
+
+    }
+
+    .am_services__list_item:nth-child(2) {
+
+        flex-direction: column-reverse;
+
+    }
+
+    .am_services__list_item:nth-child(2) .am_services__list_img {
+
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    .am_services_item:first-child {
+
+        display: none;
+
+    }
+}
+@media screen and (max-width: 470px)
+{
+
+    .am_logo img {
+
+        max-width: 80%;
+
+    }
+
+    .am_works__title span {
+
+        font-size: 22px;
+
+    }
+
+    .am_mobile_menu,
+    .am_header__callback a {
+
+        width: 60px;
+        height: 35px;
+
+    }
+
+    .am_mobile_menu svg {
+
+        width: 14px;
+        height: 12px;
+
+    }
+
+    /* Блок 2 - "Мои услуги" */
+
+    .am_services__title h2 {
+
+        font-size: 30px;
+
+    }
+   
+}
+@media screen and (max-width: 430px)
+{
+
+    .am_works__item {
+
+        width: 290px;
+        height: 190px;
+        border-radius: 25px;
+
+    }
+   
+}
+@media screen and (max-width: 370px)
+{
+    .am_works__item {
+
+        width: 270px;
+        height: 170px;
+        
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .questions_img 
+    {
+        min-height: 320px;
+    }
+    .questions_header p 
+    {
+        font-size: 10px;
+    }
+    .slick-prev__mod 
+    {
+        left: 160px;
+    }
+    .slick-next__mod 
+    {
+        right: 160px;
+    }
+    .partners-dots li button:before 
+    {
+        top: -260px;
+    }
+    .contacts_icon 
+    {
+        left: 130px;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    .slick-prev__mod 
+    {
+        left: 150px;
+    }
+    .slick-next__mod 
+    {
+        right: 150px;
+    }
+    .contacts_icon 
+    {
+        left: 115px;
+    }
+    .footer_list__links ul
+    {
+        margin-left: 20px;
+    } 
+}
