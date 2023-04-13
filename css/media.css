@@ -71,6 +71,20 @@
         flex-direction: column;
 
     } */
+
+    /* Блок 3 - "Преимущества" */
+
+    .am_advant_items {
+
+        margin-top: 90px;
+
+    }
+
+    .am_advant__title {
+
+        margin-top: -100px;
+
+    }
    
 }
 @media screen and (max-width: 1100px)
@@ -190,6 +204,33 @@
 
     }
 
+    /* Блок 3 - "Преимущества" */
+
+    .am_advant__title h2 {
+  
+        font-size: 35px;
+        
+    }
+
+    .am_advant__items_group {
+
+        background: none; 
+
+    }
+
+    .am_advant_items {
+
+        flex-direction: column;
+
+    }
+
+    .am_advant__item {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
    
 }
 @media screen and (max-width: 768px)

@@ -523,7 +523,7 @@ body
 
 .am_advant__items_group {
 
-    background: url(/img/block_3_photo.png) no-repeat top center;
+    background: url(/img/block_3_photo.png) no-repeat top 70px center;
 
 }
 
@@ -535,9 +535,15 @@ body
 
 }
 
+.am_advant__item {
+
+    min-width: 375px;
+
+}
+
 .am_advant__item_desc {
 
-    max-width: 350px;
+    max-width: 375px;
 
 }
 
@@ -566,6 +572,13 @@ body
     color: #25B419;
     display: block;
     margin-right: 35px;
+
+}
+
+.am_title__left_space h3 {
+
+    margin-right: 0;
+    margin-left: 35px;
 
 }
 
