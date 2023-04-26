@@ -106,15 +106,15 @@ body
 
 }
 
-.am_topline__socs_item:nth-child(2) a,
-.am_contacts__socs_item:nth-child(2) a {
+.am_topline__socs .am_topline__socs_item:nth-child(2) a,
+.am_contacts__socs .am_contacts__socs_item:nth-child(2) a {
 
     position: relative;
     
 }
 
-.am_topline__socs_item:nth-child(2) a svg
-.am_contacts__socs_item:nth-child(2) a svg {
+.am_topline__socs .am_topline__socs_item:nth-child(2) a svg,
+.am_contacts__socs .am_contacts__socs_item:nth-child(2) a svg {
 
     position: absolute;
     left: 3px;
@@ -276,11 +276,12 @@ body
 
 }
 
+
 .slick-prev {
 
     top: 200px;
     left: 50px;
-    z-index: 1;
+    z-index: 100;
 
 }
 
@@ -338,6 +339,14 @@ body
 
     filter: drop-shadow(0px 4px 10px rgba(13, 152, 253, 0.7));
     transition: all 0.3s ease;
+
+}
+
+.am_works_item__layer a:focus,
+.am_works_item__layer a:active {
+
+    border: none;
+    outline: none;
 
 }
 
@@ -729,7 +738,8 @@ body
 
 }
 
-.am_callback button {
+.am_callback button,
+.am_callback__form_btn button {
 
     border: none;
     color: #fff;
@@ -744,7 +754,8 @@ body
 
 }
 
-.am_callback button:hover {
+.am_callback button:hover,
+.am_callback__form_btn button:hover {
 
     background: #25B419;
     transition: all 0.3s;
@@ -1003,5 +1014,83 @@ body
 
     width: 30px;
     height: 30px;
+
+}
+
+/* Форма обратного звонка */
+
+#am_callback__form {
+
+    position: absolute;
+    top: 30%;
+    padding: 30px 40px;
+    z-index: 100;
+    background: #fff;
+    border-radius: 30px;
+    display: none;
+    min-width: 355px;
+    max-width: 355px;
+
+}
+
+.am_callback__form_logo {
+
+    text-align: center;
+
+}
+
+.am_callback__form_content {
+
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.am_callback__form_field {
+
+
+    margin-bottom: 25px;
+
+}
+
+.am_callback__form_field input {
+
+    border: none;
+    border-bottom: 1px solid #0D98FD;
+    transition: all 0.3s;
+    outline: none;
+    text-align: center;
+    width: 170px;
+    background: transparent;
+    font-size: 15px;
+
+}
+
+.am_callback__personal {
+
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.am_callback__personal p {
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 16px;
+    color: rgba(94, 94, 94, 0.6);
+
+}
+
+.am_callback__info span {
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #0D98FD;
 
 }
