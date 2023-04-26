@@ -58,20 +58,6 @@
 
     }
 
-    /* .am_services__list_desc {
-
-        min-width: 60%
-
-    } */
-
-    /* Блок 2 - "Мои услуги" */
-
-    /* .am_services_items {
-
-        flex-direction: column;
-
-    } */
-
     /* Блок 3 - "Преимущества" */
 
     .am_advant_items {
@@ -85,6 +71,26 @@
         margin-top: -100px;
 
     }
+
+    .am_advant__items_group {
+
+        background: url(/img/block_3_photo.png) no-repeat top 130px center;
+    
+    }
+
+    /* Блок 4 - "Я на связи" - контакты */
+
+    .am_contacts__item_photos img {
+
+        max-width: 100%;
+
+    }
+
+    .am_contacts__item_info {
+
+        max-width: 60%;
+
+    }    
    
 }
 @media screen and (max-width: 1100px)
@@ -206,6 +212,11 @@
 
     /* Блок 3 - "Преимущества" */
 
+    .am_advant__layer {
+
+        background: none;
+    }
+
     .am_advant__title h2 {
   
         font-size: 35px;
@@ -221,6 +232,13 @@
     .am_advant_items {
 
         flex-direction: column;
+        height: auto;
+
+    }
+
+    .am_advant_items:last-child {
+
+        margin-top: 25px;
 
     }
 
@@ -231,6 +249,73 @@
         align-items: center;
 
     }
+
+    .am_advant__item:first-child {
+
+        margin-bottom: 25px;
+
+    }
+
+    /* Блок 3 - "Форма обратной связи" */
+
+    .am_callback {
+
+        margin-top: 70px;
+        padding-bottom: 50px;
+    
+    }
+
+    /* Блок 4 - "Я на связи" - контакты */
+
+    .am_contacts__layer {
+
+        padding-bottom: 170px;
+
+    }
+
+    .am_contacts__items {
+
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+
+    }
+
+    .am_contacts__item_info {
+
+        margin-left: 0;
+        max-width: 80%;
+      
+    }
+
+    .am_contacts__info_text p {
+
+        font-size: 15px;
+
+    }
+
+    .am_footer__copyright span {
+
+        font-size: 14px;
+
+    }    
+
+    .am_contacts__item_photos {
+
+        text-align: center;
+
+    }
+
+    .am_contacts__item_photos img {
+
+        max-width:60%;
+
+    }
+
+    .am_contacts__info_sign {
+
+        max-width: 70%;
+    }
    
 }
 @media screen and (max-width: 768px)
@@ -240,6 +325,30 @@
 
         font-size: 20px;
         line-height: 25px;
+
+    }
+
+    .am_contacts__item_info {
+
+        max-width: none;
+  
+    }
+
+    .am_contacts__item_photos img {
+
+        max-width: 50%;
+
+    }
+
+    .am_footer__nav ul li {
+
+        margin-right: 40px;
+
+    }
+
+    .am_footer__nav ul li a {
+   
+        font-size: 12px;
 
     }
    
@@ -271,6 +380,27 @@
         text-align: center;
 
     }
+
+    .am_contacts__info_text {
+
+        background: none;
+        min-height:auto;
+        min-width: auto;
+
+    }
+
+    .am_contacts__info_sign {
+
+        display: none;
+
+    }
+
+    .am_contacts__info {
+  
+        justify-content: center;
+
+    }
+
 }
 
 @media screen and (max-width: 576px)
@@ -318,6 +448,38 @@
         font-size: 30px;
 
     }
+
+    /* Блок 4 "Я на связи" - контакты */
+
+    .am_contacts__info_text {
+
+        padding: 30px 20px;
+
+    }
+    
+    .am_contacts__info_text p {
+
+        font-size: 14px;
+
+    }
+
+    .am_contacts__info_phone span {
+   
+        font-size: 15px;
+
+    }
+
+    .am_footer__copyright span {
+
+        font-size: 12px;
+
+    }
+
+    .am_footer__nav ul li a {
+
+        font-size: 10px;
+
+    }
    
 }
 @media screen and (max-width: 430px)
@@ -328,6 +490,90 @@
         width: 290px;
         height: 190px;
         border-radius: 25px;
+
+    }
+
+    .am_advant__item {
+
+        min-width: auto;
+
+    }
+
+    .am_advant__title h2 {
+
+        font-size: 28px;
+
+    }
+
+    .am_advant__item_title h3 {
+
+        font-size: 16px;
+        margin-right: 0;
+        margin-left: 0;
+         
+
+    }  
+
+    .am_advant__item_icon {
+
+        text-align: right;
+    }
+
+    .am_icon__left {
+
+        text-align: left;
+
+    }
+    
+    .am_advant__item_icon img {
+
+        max-width: 80%;
+
+    }
+
+    .am_advant__item_desc {
+
+        padding: 15px 8px;
+
+    }
+    
+    .am_callback__fields input:first-child {
+
+        margin-bottom: 20px;
+        margin-right: 0;
+    
+    }
+
+    .am_callback__fields {
+
+        margin-bottom: 35px;
+
+    }
+
+   /* Блок 4 "Я на связи" - контакты */
+
+   .am_contacts__items {
+
+        margin-top: 75px;
+
+    }
+
+    .am_contacts__info_text p {
+
+        font-size: 13px;
+
+    }
+
+    .am_footer__nav ul {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .am_footer__nav ul li {
+
+        margin-right: 0;
 
     }
    
@@ -366,6 +612,18 @@
     .contacts_icon 
     {
         left: 130px;
+    }
+
+    .am_advant__item_title h3 {
+
+        font-size: 15px;
+
+    }
+
+    .am_advant__item_icon img {
+
+        max-width: 70%;
+
     }
 }
 @media screen and (max-width: 320px)
